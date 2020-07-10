@@ -1,2 +1,6 @@
-# Project exclude paths
-/out/
+# no .db, .log files 
+*.log
+*.db
+# ignore all files in the build/ directory  
+target/
+bin/
